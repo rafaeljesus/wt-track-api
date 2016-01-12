@@ -1,9 +1,9 @@
 # wt-track-api
 
-* Record any actions your system performs.
-
 [![bitHound Overalll Score](https://www.bithound.io/github/rafaeljesus/wt-track-api/badges/score.svg)](https://www.bithound.io/github/rafaeljesus/wt-track-api)
 [![bitHound Code](https://www.bithound.io/github/rafaeljesus/wt-track-api/badges/code.svg)](https://www.bithound.io/github/rafaeljesus/wt-track-api)
+
+* Record any actions your system performs.
 
 ## API documentation
 

@@ -5,7 +5,12 @@
 
 * Record any actions your system performs.
 
-## API documentation
+## Using curl
+`curl -X POST https://webtask.it.auth0.com/api/run/wt-rafaelljesus86-gmail_com-0/wt-track-api\?webtask_no_cache\=1 \`
+
+`-d 'event=order' \`
+
+`-d 'status=completed'`
 
 ## Contributing
 - Fork it

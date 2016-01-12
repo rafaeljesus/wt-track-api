@@ -17,9 +17,10 @@ function TrackApi(ctx, done) {
     if (err) return done(err)
     db.collection('events').insertMany([data], (err, res) => {
       if (err) return done(err)
-      log(`track data saved ${res}`)
+      const doc = res.ops[0]
+      log('track data saved %j', doc)
       db.close()
-      done(null, res.ops[0])
+      done(null, doc)
     })
   })
 }
